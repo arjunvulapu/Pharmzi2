@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B4DD5B1FFDEE1B00ED6828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DD5A1FFDEE1B00ED6828 /* AppDelegate.m */; };
+		18B4DD5E1FFDEE1B00ED6828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DD5D1FFDEE1B00ED6828 /* ViewController.m */; };
+		18B4DD611FFDEE1B00ED6828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B4DD5F1FFDEE1B00ED6828 /* Main.storyboard */; };
+		18B4DD631FFDEE1B00ED6828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B4DD621FFDEE1B00ED6828 /* Assets.xcassets */; };
+		18B4DD661FFDEE1B00ED6828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B4DD641FFDEE1B00ED6828 /* LaunchScreen.storyboard */; };
+		18B4DD691FFDEE1B00ED6828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DD681FFDEE1B00ED6828 /* main.m */; };
+		18B4DD731FFDEE1B00ED6828 /* PharmziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DD721FFDEE1B00ED6828 /* PharmziTests.m */; };
+		18B4DD7E1FFDEE1B00ED6828 /* PharmziUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DD7D1FFDEE1B00ED6828 /* PharmziUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B4DD6F1FFDEE1B00ED6828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B4DD4E1FFDEE1B00ED6828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B4DD551FFDEE1B00ED6828;
+			remoteInfo = Pharmzi;
+		};
+		18B4DD7A1FFDEE1B00ED6828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B4DD4E1FFDEE1B00ED6828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B4DD551FFDEE1B00ED6828;
+			remoteInfo = Pharmzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B4DD561FFDEE1B00ED6828 /* Pharmzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B4DD591FFDEE1B00ED6828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B4DD5A1FFDEE1B00ED6828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B4DD5C1FFDEE1B00ED6828 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B4DD5D1FFDEE1B00ED6828 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B4DD601FFDEE1B00ED6828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B4DD621FFDEE1B00ED6828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B4DD651FFDEE1B00ED6828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B4DD671FFDEE1B00ED6828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B4DD681FFDEE1B00ED6828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B4DD6E1FFDEE1B00ED6828 /* PharmziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B4DD721FFDEE1B00ED6828 /* PharmziTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PharmziTests.m; sourceTree = "<group>"; };
+		18B4DD741FFDEE1B00ED6828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B4DD791FFDEE1B00ED6828 /* PharmziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B4DD7D1FFDEE1B00ED6828 /* PharmziUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PharmziUITests.m; sourceTree = "<group>"; };
+		18B4DD7F1FFDEE1B00ED6828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B4DD531FFDEE1B00ED6828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B4DD6B1FFDEE1B00ED6828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B4DD761FFDEE1B00ED6828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B4DD4D1FFDEE1B00ED6828 = {
+			isa = PBXGroup;
+			children = (
+				18B4DD581FFDEE1B00ED6828 /* Pharmzi */,
+				18B4DD711FFDEE1B00ED6828 /* PharmziTests */,
+				18B4DD7C1FFDEE1B00ED6828 /* PharmziUITests */,
+				18B4DD571FFDEE1B00ED6828 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B4DD571FFDEE1B00ED6828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B4DD561FFDEE1B00ED6828 /* Pharmzi.app */,
+				18B4DD6E1FFDEE1B00ED6828 /* PharmziTests.xctest */,
+				18B4DD791FFDEE1B00ED6828 /* PharmziUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B4DD581FFDEE1B00ED6828 /* Pharmzi */ = {
+			isa = PBXGroup;
+			children = (
+				18B4DD591FFDEE1B00ED6828 /* AppDelegate.h */,
+				18B4DD5A1FFDEE1B00ED6828 /* AppDelegate.m */,
+				18B4DD5C1FFDEE1B00ED6828 /* ViewController.h */,
+				18B4DD5D1FFDEE1B00ED6828 /* ViewController.m */,
+				18B4DD5F1FFDEE1B00ED6828 /* Main.storyboard */,
+				18B4DD621FFDEE1B00ED6828 /* Assets.xcassets */,
+				18B4DD641FFDEE1B00ED6828 /* LaunchScreen.storyboard */,
+				18B4DD671FFDEE1B00ED6828 /* Info.plist */,
+				18B4DD681FFDEE1B00ED6828 /* main.m */,
+			);
+			path = Pharmzi;
+			sourceTree = "<group>";
+		};
+		18B4DD711FFDEE1B00ED6828 /* PharmziTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B4DD721FFDEE1B00ED6828 /* PharmziTests.m */,
+				18B4DD741FFDEE1B00ED6828 /* Info.plist */,
+			);
+			path = PharmziTests;
+			sourceTree = "<group>";
+		};
+		18B4DD7C1FFDEE1B00ED6828 /* PharmziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B4DD7D1FFDEE1B00ED6828 /* PharmziUITests.m */,
+				18B4DD7F1FFDEE1B00ED6828 /* Info.plist */,
+			);
+			path = PharmziUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B4DD551FFDEE1B00ED6828 /* Pharmzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B4DD821FFDEE1B00ED6828 /* Build configuration list for PBXNativeTarget "Pharmzi" */;
+			buildPhases = (
+				18B4DD521FFDEE1B00ED6828 /* Sources */,
+				18B4DD531FFDEE1B00ED6828 /* Frameworks */,
+				18B4DD541FFDEE1B00ED6828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pharmzi;
+			productName = Pharmzi;
+			productReference = 18B4DD561FFDEE1B00ED6828 /* Pharmzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B4DD6D1FFDEE1B00ED6828 /* PharmziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B4DD851FFDEE1B00ED6828 /* Build configuration list for PBXNativeTarget "PharmziTests" */;
+			buildPhases = (
+				18B4DD6A1FFDEE1B00ED6828 /* Sources */,
+				18B4DD6B1FFDEE1B00ED6828 /* Frameworks */,
+				18B4DD6C1FFDEE1B00ED6828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B4DD701FFDEE1B00ED6828 /* PBXTargetDependency */,
+			);
+			name = PharmziTests;
+			productName = PharmziTests;
+			productReference = 18B4DD6E1FFDEE1B00ED6828 /* PharmziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B4DD781FFDEE1B00ED6828 /* PharmziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B4DD881FFDEE1B00ED6828 /* Build configuration list for PBXNativeTarget "PharmziUITests" */;
+			buildPhases = (
+				18B4DD751FFDEE1B00ED6828 /* Sources */,
+				18B4DD761FFDEE1B00ED6828 /* Frameworks */,
+				18B4DD771FFDEE1B00ED6828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B4DD7B1FFDEE1B00ED6828 /* PBXTargetDependency */,
+			);
+			name = PharmziUITests;
+			productName = PharmziUITests;
+			productReference = 18B4DD791FFDEE1B00ED6828 /* PharmziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B4DD4E1FFDEE1B00ED6828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18B4DD551FFDEE1B00ED6828 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					18B4DD6D1FFDEE1B00ED6828 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18B4DD551FFDEE1B00ED6828;
+					};
+					18B4DD781FFDEE1B00ED6828 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18B4DD551FFDEE1B00ED6828;
+					};
+				};
+			};
+			buildConfigurationList = 18B4DD511FFDEE1B00ED6828 /* Build configuration list for PBXProject "Pharmzi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B4DD4D1FFDEE1B00ED6828;
+			productRefGroup = 18B4DD571FFDEE1B00ED6828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B4DD551FFDEE1B00ED6828 /* Pharmzi */,
+				18B4DD6D1FFDEE1B00ED6828 /* PharmziTests */,
+				18B4DD781FFDEE1B00ED6828 /* PharmziUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B4DD541FFDEE1B00ED6828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B4DD661FFDEE1B00ED6828 /* LaunchScreen.storyboard in Resources */,
+				18B4DD631FFDEE1B00ED6828 /* Assets.xcassets in Resources */,
+				18B4DD611FFDEE1B00ED6828 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B4DD6C1FFDEE1B00ED6828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B4DD771FFDEE1B00ED6828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B4DD521FFDEE1B00ED6828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B4DD5E1FFDEE1B00ED6828 /* ViewController.m in Sources */,
+				18B4DD691FFDEE1B00ED6828 /* main.m in Sources */,
+				18B4DD5B1FFDEE1B00ED6828 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B4DD6A1FFDEE1B00ED6828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B4DD731FFDEE1B00ED6828 /* PharmziTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B4DD751FFDEE1B00ED6828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B4DD7E1FFDEE1B00ED6828 /* PharmziUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B4DD701FFDEE1B00ED6828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B4DD551FFDEE1B00ED6828 /* Pharmzi */;
+			targetProxy = 18B4DD6F1FFDEE1B00ED6828 /* PBXContainerItemProxy */;
+		};
+		18B4DD7B1FFDEE1B00ED6828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B4DD551FFDEE1B00ED6828 /* Pharmzi */;
+			targetProxy = 18B4DD7A1FFDEE1B00ED6828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B4DD5F1FFDEE1B00ED6828 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B4DD601FFDEE1B00ED6828 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B4DD641FFDEE1B00ED6828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B4DD651FFDEE1B00ED6828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B4DD801FFDEE1B00ED6828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18B4DD811FFDEE1B00ED6828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B4DD831FFDEE1B00ED6828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pharmzi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arjun.-sample.Pharmzi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B4DD841FFDEE1B00ED6828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pharmzi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arjun.-sample.Pharmzi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B4DD861FFDEE1B00ED6828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arjun.-sample.PharmziTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pharmzi.app/Pharmzi";
+			};
+			name = Debug;
+		};
+		18B4DD871FFDEE1B00ED6828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arjun.-sample.PharmziTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pharmzi.app/Pharmzi";
+			};
+			name = Release;
+		};
+		18B4DD891FFDEE1B00ED6828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmziUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arjun.-sample.PharmziUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pharmzi;
+			};
+			name = Debug;
+		};
+		18B4DD8A1FFDEE1B00ED6828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmziUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arjun.-sample.PharmziUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pharmzi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B4DD511FFDEE1B00ED6828 /* Build configuration list for PBXProject "Pharmzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B4DD801FFDEE1B00ED6828 /* Debug */,
+				18B4DD811FFDEE1B00ED6828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B4DD821FFDEE1B00ED6828 /* Build configuration list for PBXNativeTarget "Pharmzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B4DD831FFDEE1B00ED6828 /* Debug */,
+				18B4DD841FFDEE1B00ED6828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B4DD851FFDEE1B00ED6828 /* Build configuration list for PBXNativeTarget "PharmziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B4DD861FFDEE1B00ED6828 /* Debug */,
+				18B4DD871FFDEE1B00ED6828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B4DD881FFDEE1B00ED6828 /* Build configuration list for PBXNativeTarget "PharmziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B4DD891FFDEE1B00ED6828 /* Debug */,
+				18B4DD8A1FFDEE1B00ED6828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B4DD4E1FFDEE1B00ED6828 /* Project object */;
+}
